@@ -1,0 +1,185 @@
+.tlo
+{
+    background-color: rgba(250, 250, 250, 0.993);
+    
+}
+.logo
+{
+    margin-top: 11px;
+}
+
+/* ikonkiDoNawigcji */
+.nav1
+{
+    padding: 7px 17px 0 25px;
+    list-style: none;
+	background-image: url('images/dom2.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 22px;
+    
+}
+
+.nav2
+{
+    padding: 7px 10px 0 25px;
+    list-style: none;
+	background-image: url('images/kask.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 20px;
+    
+}
+.nav3
+{
+    padding: 7px 14px 0 25px;
+    list-style: none;
+	background-image: url('images/mlotek.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 20px;
+    
+}
+.nav4
+{
+    padding: 7px 12px 0 25px;
+    list-style: none;
+	background-image: url('images/galeria.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 20px;
+    
+}
+.nav5
+{
+    padding: 7px 0 0 25px;
+    list-style: none;
+	background-image: url('images/phone.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 20px;
+   
+}
+/* koniecIkonekDoNawigacji */
+
+/* transformyNawigacji */
+a.nav-link
+{
+    transition: 0.5s;
+}
+a.nav-link:hover
+{
+    color: rgb(240, 108, 0) !important;
+    
+}
+.nav-pills > li > a.active {
+    background-color: #ff7300ea!important;
+    color:white !important;
+}
+/* koniecTransformNawigacji */
+
+
+.bg-image
+{
+    margin-top: 69px;
+    background-image: url('images/tlo.png\'') !important;
+}
+
+/* opisFirmy */
+.description
+{
+    padding: 300px 0;
+    background-image: url('images/tlo.png\'') !important;
+}
+/* koniecOpisuFirmy */
+
+
+/* divZObrazkami */
+.servicesdsc
+{
+    width: 100%;
+    padding: 50px 50px 30px 50px;
+}
+/* koniecDivuZObrazkami */
+
+.images:hover
+{
+    transform: translate(0px, -15px);
+}
+
+.images
+{
+    transition: 0.3s;
+}
+.bg-black
+{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+/*opcjeDodatkoweResponsywność*/
+@media (max-width: 575px)
+{
+   .aboutUs
+   {
+       font-size: 17px !important;
+   } 
+   .images
+   {
+       width:300px;
+       display: block;
+       margin: auto;
+   }
+   .smaller
+   {
+       font-size: 25px !important;
+   }
+}
+@media (max-width: 920px)
+{
+    .smaller
+   {
+       font-size: 25px !important;
+   }
+}
+
+@media (min-width: 575px)
+{
+    .images
+    {
+        width:250px;
+        display: block;
+        margin: auto;
+    } 
+    
+}
+/* koniecOpcjiDodatkowychResponsywność */
+
+
+.bg-orange
+{
+    background-color: rgb(255, 115, 0);
+    color:white;
+}
+.margin
+{
+    margin-top: 200px;
+}
+
+/* listaFooter */
+div li
+{
+    list-style: none;
+}
+/* koniecListaFooter */
+
+div li a:hover
+{
+    text-decoration: none;
+}
+/* czcionkaDoFootera */
+.font
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* koniecCzcionkiDoFootera */
